@@ -1,0 +1,42 @@
+{
+  "name": "gateway-software",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && webpack",
+    "start": "npm install && node index.js",
+    "deploy": "pm2 start gateway-software.js",
+  },
+  "keywords": [],
+  "author": "Ryan Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "fs-extra": "^7.0.1",
+    "global": "^4.3.2",
+    "lokijs": "^1.5.6",
+    "modbus-stream": "^0.42.0",
+    "net-snmp": "^1.2.4",
+    "request": "^2.88.0",
+    "snmp-native": "^1.1.2",
+    "zip-local": "^0.3.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-transform-classes": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "circular-dependency-plugin": "^5.0.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
