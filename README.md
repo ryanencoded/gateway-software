@@ -1,7 +1,7 @@
 # Gateway Software
 This project is a psuedo version of a gateway software I wrote to collect IoT telemetry data and send the data back to AWS IoT. For proprietary reasons, move of the code has been removed to show the minimal amount needed to demonstrate the concept.
 
-##Structure
+## Structure
 The psuedo directory structure is as follows:
 
 ```
@@ -27,7 +27,7 @@ gateway-software
 
 **NOTE: The above structure is a psuedo version of what I would normally write in a readme structure.**
 
-#Process/Scripts
+## Process/Scripts
 This is where I would tell other developers how to work with the software at the script level. I.e.
 
 ``` npm start ``` - Installs dependencies and opens index.js in node
@@ -37,13 +37,13 @@ This is where I would tell other developers how to work with the software at the
 ...Any other relevant commands
 
 
-#Additional Information
+## Additional Information
 This is where I put anything else I want the other developers to know. I would put any historical information, relevant links, or really just anything that a developer need to know to succeed.
 
-#Company Specific Information
+## Company Specific Information
 This is where I place anything else that a company wants me to include in the readme.
 
 
-#Acknowledgement
+## Acknowledgement
 * Ryan Thompson - Lead developer
 * Other Member - Role they played
